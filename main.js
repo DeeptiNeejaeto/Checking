@@ -9,11 +9,11 @@ function setup()
 
 function draw()
 {
-    Image(video,0,0,640,480);
+    image(video,0,0,640,480);
     tint(tint_color);
 }
 
-function takesnapshot()
+function take_snapshot()
 {
     save('student_name.png');
 }
